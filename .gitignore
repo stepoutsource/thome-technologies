@@ -2,6 +2,7 @@
 node_modules
 /dist
 /data-samples
+/KnightOne
 
 # local env files
 .env.local

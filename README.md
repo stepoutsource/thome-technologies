@@ -15,16 +15,6 @@ npm run serve
 npm run build
 ```
 
-### Deploy to production
-```
-npm run deploy
-```
-
-### Run your unit tests
-```
-npm run test:unit
-```
-
 ### Lints and fixes files
 ```
 npm run lint
