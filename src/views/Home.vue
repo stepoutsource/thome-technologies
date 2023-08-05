@@ -1,59 +1,12 @@
 <template>
   <div class="home">
 
-
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top ">
-      <div class="container-fluid">
-
-        <div class="row justify-content-center">
-          <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
-            <h1 class="logo me-auto me-lg-0"><a href="index.html">Thome Technologies</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-            <nav id="navbar" class="navbar order-last order-lg-0">
-              <ul>
-                <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-                <li><a class="nav-link scrollto" href="#about">About</a></li>
-                <li><a class="nav-link scrollto" href="#services">Services</a></li>
-                <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-<!--                <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>-->
-<!--                <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>-->
-<!--                  <ul>-->
-<!--                    <li><a href="#">Drop Down 1</a></li>-->
-<!--                    <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>-->
-<!--                      <ul>-->
-<!--                        <li><a href="#">Deep Drop Down 1</a></li>-->
-<!--                        <li><a href="#">Deep Drop Down 2</a></li>-->
-<!--                        <li><a href="#">Deep Drop Down 3</a></li>-->
-<!--                        <li><a href="#">Deep Drop Down 4</a></li>-->
-<!--                        <li><a href="#">Deep Drop Down 5</a></li>-->
-<!--                      </ul>-->
-<!--                    </li>-->
-<!--                    <li><a href="#">Drop Down 2</a></li>-->
-<!--                    <li><a href="#">Drop Down 3</a></li>-->
-<!--                    <li><a href="#">Drop Down 4</a></li>-->
-<!--                  </ul>-->
-<!--                </li>-->
-                <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-              </ul>
-              <i class="bi bi-list mobile-nav-toggle"></i>
-            </nav><!-- .navbar -->
-
-            <a href="#about" class="get-started-btn scrollto">Get Started</a>
-          </div>
-        </div>
-
-      </div>
-    </header><!-- End Header -->
-
     <!-- ======= Hero Section ======= -->
     <section id="hero" class="d-flex flex-column justify-content-center">
       <div class="container">
         <div class="row justify-content-center">
           <div class="col-xl-8">
-            <h1>Thome Technologies</h1>
+            <h1>Welcome</h1>
             <h2>We are team of designers, architects, and engineers that specialize in web application development.</h2>
             <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox play-btn mb-4"></a>
           </div>

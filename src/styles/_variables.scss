@@ -33,52 +33,27 @@ $gray2: #bababa;
 $gray3: #777777;
 $gray4: #444444;
 
-//mpishi colors
 $lightgray: #e8e8e8;
 $steelblue: #3a3c4b;
 $darkgray: #212529;;
-$lightbrown: #96796f;
-$tan: #bea38d;
-$mediumbrown: #5c4c42;
-$browngold: #885f21;
-$gold: #b4935d;
-$brown: #3b2424;
-$darkbrown: #331f1f;
-$darkviolet: #661734;
-$midviolet: #9e2351;
-$violet: #bb2a60;
-$lavender: #a75db4;
-$mediumviolet: #ffe7ef;
-$lightviolet: #fff3f7;
 
-$lightwood: #f6e1c5;
-$darkwood: #9f826d;
+$pink: #C57FFF;
+$purple: #5B7AFC;
 
-$cream: #fff7eb;
-$mediumcream: #fee8bb;
-
-$lightred: #c97457;
-$greenish: #56b949;
-$green: #1fb14d;
-
-.bg-lightwood {
-  background-color: $lightwood;
+.bg-pink {
+  background-color: $pink;
 }
 
-.bg-darkwood {
-  background-color: $darkwood;
+.bg-purple {
+  background-color: $purple;
 }
 
-.bg-lightbrown{
-  background-color: $lightbrown;
+.color-pink {
+  color: $pink;
 }
 
-.bg-mediumbrown {
-  background-color: $mediumbrown;
-}
-
-.bg-brown {
-  background-color: $brown;
+.color-purple {
+  color: $purple;
 }
 
 
