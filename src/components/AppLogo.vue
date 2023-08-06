@@ -117,10 +117,13 @@ export default {
 .app-logo {
   width: 100%;
   height: auto;
+  text-align: left;
 
   svg {
     width: 100%;
     height: 60px;
+    margin: 0;
+    padding: 0;
 
     @media (max-width: 767px) {
       height: 50px;
