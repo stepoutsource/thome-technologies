@@ -93,11 +93,11 @@ export default {
 <style lang="scss" scoped>
 #header {
   padding: 0;
-  text-align: left;
 }
 
-.navbar {
-  text-align: left;
+.navbar-brand {
+  position: relative;
+  left: 0;
 }
 
 .nav-link {
