@@ -115,12 +115,9 @@ export default {
 
 <style lang="scss" scoped>
 .app-logo {
-  width: 100%;
-  height: auto;
-  text-align: left;
 
   svg {
-    width: 100%;
+    width: auto;
     height: 60px;
     margin: 0;
     padding: 0;
