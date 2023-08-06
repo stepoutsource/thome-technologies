@@ -10,7 +10,7 @@
         fixed="top"
         :style="{background: `rgba(0,0,0,${number}`}"
     >
-      <b-container fluid="xl">
+      <b-container fluid="xl" class="justify-content-between">
         <b-navbar-brand href="#">
           <app-logo />
 
@@ -93,7 +93,13 @@ export default {
 <style lang="scss" scoped>
 #header {
   padding: 0;
+  text-align: left;
 }
+
+.navbar {
+  text-align: left;
+}
+
 .nav-link {
   color: #ffffff;
 }
