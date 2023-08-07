@@ -3,7 +3,6 @@
 
     <app-hero />
 
-
     <main id="main">
 
       <section-about />
