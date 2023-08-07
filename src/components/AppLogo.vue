@@ -2,7 +2,7 @@
   <div class="app-logo">
 
 
-    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+    <svg :height="getHeight" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
          viewBox="0 0 281.6 81.5" enable-background="new 0 0 281.6 81.5" xml:space="preserve">
 <g>
 	<path fill="#FFFFFF" d="M84.2,24v-3.2h14.2V24h-5.2v14.1h-3.8V24H84.2z"/>
@@ -110,6 +110,17 @@
 <script>
 export default {
   name: 'AppLogo',
+  props: {
+    height: {
+      type: Number,
+      default: 60
+    }
+  },
+  computed: {
+    getHeight() {
+      return `${this.height}px`
+    }
+  }
 }
 </script>
 
@@ -117,8 +128,9 @@ export default {
 .app-logo {
 
   svg {
+    transition: .3s;
     width: auto;
-    height: 60px;
+    //height: 60px;
     margin: 0;
     padding: 0;
 

@@ -8,11 +8,11 @@
     <b-navbar
         toggleable="lg"
         fixed="top"
-        :style="{background: `rgba(0,0,0,${number}`}"
+        :style="[{background: `rgba(0,0,0,${number}`}, {padding: `${scrollPosition > 80 ? '0' : '15px'} 0`}]"
     >
       <b-container fluid="xl" class="justify-content-between">
         <b-navbar-brand href="#">
-          <app-logo />
+          <app-logo :height="scrollPosition > 80 ? 54 : 60" />
 
         </b-navbar-brand>
 
@@ -95,6 +95,9 @@ export default {
   padding: 0;
 }
 
+.navbar {
+  transition: .3s;
+}
 .navbar-brand {
   position: relative;
   left: 0;
