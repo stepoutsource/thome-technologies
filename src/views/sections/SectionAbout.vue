@@ -27,7 +27,7 @@
           </p>
 
           <base-button animated>Learn More</base-button>
-          <a href="#" class="btn-learn-more">Learn More</a>
+
         </div>
       </div>
 
@@ -44,7 +44,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-#about {
-  scroll-margin-top: 80px;
-}
+
 </style>
