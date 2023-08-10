@@ -11,6 +11,7 @@ $font-family-cursive: 'Caveat', cursive;
 
 //colors copied from hadithi
 $black: #000000;
+$black2: #222222;
 $gray-dark: #333333;
 
 $text-primary: $black;
@@ -41,27 +42,19 @@ $steelblue: #3a3c4b;
 $darkgray: #212529;;
 
 $pink: #C57FFF;
-$purple: #5B7AFC;
+$blue: #5B7AFC;
 
-$color-primary: #009961;
-$color-primary-lighter: #00cc81;
 
-.bg-pink {
-  background-color: $pink;
-}
+$blue1: #1b32b8;
+$blue2: #273bb3;
+$blue3: #2f46cc;
+$blue4: #314be1;
+$blue5: #748fff;
 
-.bg-purple {
-  background-color: $purple;
-}
+$deep-purple: #452276;
 
-.color-pink {
-  color: $pink;
-}
-
-.color-purple {
-  color: $purple;
-}
-
+$color-primary: $blue;
+$color-primary-lighter: $blue5;
 
 
 // util
@@ -70,6 +63,6 @@ $color-primary-lighter: #00cc81;
   border-radius: 15px;
 }
 
-.border-radius-33 {
-  border-radius: 33px;
+.border-radius-25 {
+  border-radius: 25px;
 }
