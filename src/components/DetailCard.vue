@@ -2,7 +2,8 @@
   <div>
     <b-card class="clickable-card" @click="showModal">
       <div class="image-wrapper">
-        <img :src="image" alt="Item Image" class="card-img-top">
+        <div class="placeholder-img" :style="{backgroundImage: `url(${image})`}"></div>
+<!--        <img :src="image" alt="Item Image" class="card-img-top">-->
       </div>
       <b-card-body>
         <h5 class="card-title">{{ title }}</h5>
@@ -44,7 +45,14 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
+.placeholder-img {
+  width: 100%;
+  min-height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
 .clickable-card {
   cursor: pointer;
   transition: transform 0.2s ease;

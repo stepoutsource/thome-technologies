@@ -143,16 +143,28 @@ export default {
     return {
       portfolio: [
         {
-          title: 'test',
-          description: 'test',
-          detailedDescription: 'test',
-          image: 'img/portfolio/portfolio-1.jpg',
+          title: 'Dereva',
+          description: 'Integrated solutions',
+          detailedDescription: 'Our platform brings together a range of essential business functions into one centralized hub, enabling you to streamline workflows, eliminate data silos, and make informed decisions with ease.',
+          image: 'img/portfolio/portfolio-image-dereva.jpg',
         },
         {
-          title: 'test',
-          description: 'test',
-          detailedDescription: 'test',
-          image: 'img/portfolio/portfolio-1.jpg',
+          title: 'Hadithi',
+          description: 'The story of Africa',
+          detailedDescription: 'Web application that offers literature about the history and traditions of the many tribes in Africa.',
+          image: 'img/portfolio/portfolio-image-hadithi.jpg',
+        },
+        {
+          title: 'Thome Images',
+          description: 'Rare and authentic photography',
+          detailedDescription: 'Thome Images provides authentic and fully licensed photographs and prints of tribalism, religion, and rare wonders of the natural world. These vintage photos give a glimpse into the customs of world culture.',
+          image: 'img/portfolio/portfolio-image-thome-images.jpg',
+        },
+        {
+          title: 'Mpishi',
+          description: 'Unique and authentic recipes',
+          detailedDescription: 'Mpishi is a site for sharing unique and authentic recipes.',
+          image: 'img/portfolio/portfolio-image-mpishi.jpg',
         },
       ]
     }
@@ -197,7 +209,7 @@ export default {
 
 .portfolio .portfolio-item {
   margin-bottom: 30px;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .portfolio .portfolio-item img {
