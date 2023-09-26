@@ -13,21 +13,33 @@
 
     <b-modal v-model="modalVisible" title="Item Details" @hide="hideModal">
       <div class="modal-body">
-        <img :src="image" alt="Item Image" class="modal-image">
-        <p>{{ detailedDescription }}</p>
+
+        <base-slider v-if="slides" :slides="slides" />
+<!--        <img :src="image" :alt="title" class="modal-image">-->
+
+        <p class="desc">{{ detailedDescription }}</p>
       </div>
     </b-modal>
   </div>
 </template>
 
 <script>
+import BaseSlider from "@/components/base/BaseSlider";
 export default {
   name: 'DetailCard',
+  components: {BaseSlider},
   props: {
     title: String,
     description: String,
     detailedDescription: String,
-    image: String,
+    image: {
+      type: String,
+      default: ''
+    },
+    slides: {
+      type: Array,
+      default: () => []
+    },
   },
   data() {
     return {
@@ -75,5 +87,11 @@ export default {
   width: 100%;
   max-height: 200px;
   object-fit: cover;
+}
+
+.desc {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: rgba(0,0,0,.05);
 }
 </style>

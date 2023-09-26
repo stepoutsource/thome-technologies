@@ -27,7 +27,8 @@
               :title="item.title"
               :description="item.description"
               :detailedDescription="item.detailedDescription"
-              :image="item.image"
+              :image="item.slides[0].image"
+              :slides="item.slides"
           />
 
         </div>
@@ -147,24 +148,80 @@ export default {
           description: 'Integrated solutions',
           detailedDescription: 'Our platform brings together a range of essential business functions into one centralized hub, enabling you to streamline workflows, eliminate data silos, and make informed decisions with ease.',
           image: 'img/portfolio/portfolio-image-dereva.jpg',
+          slides: [
+            {
+              image: 'img/portfolio/portfolio-image-dereva.jpg',
+              alt: '',
+              title: '',
+              description: '',
+            },
+          ],
         },
         {
           title: 'Hadithi',
           description: 'The story of Africa',
           detailedDescription: 'Web application that offers literature about the history and traditions of the many tribes in Africa.',
           image: 'img/portfolio/portfolio-image-hadithi.jpg',
+          slides: [
+            {
+              image: 'img/portfolio/portfolio-image-hadithi.jpg',
+              alt: '',
+              title: '',
+              description: '',
+            },
+          ],
         },
         {
           title: 'Thome Images',
           description: 'Rare and authentic photography',
           detailedDescription: 'Thome Images provides authentic and fully licensed photographs and prints of tribalism, religion, and rare wonders of the natural world. These vintage photos give a glimpse into the customs of world culture.',
           image: 'img/portfolio/portfolio-image-thome-images.jpg',
+          slides: [
+            {
+              image: 'img/portfolio/portfolio-image-thome-images.jpg',
+              alt: '',
+              title: '',
+              description: '',
+            },
+          ],
         },
         {
           title: 'Mpishi',
           description: 'Unique and authentic recipes',
           detailedDescription: 'Mpishi is a site for sharing unique and authentic recipes.',
           image: 'img/portfolio/portfolio-image-mpishi.jpg',
+          slides: [
+            {
+              image: 'img/portfolio/portfolio-image-mpishi.jpg',
+              alt: '',
+              title: '',
+              description: '',
+            },
+            {
+              image: 'img/portfolio/portfolio-image-mpishi-2.jpg',
+              alt: '',
+              title: '',
+              description: '',
+            },
+            {
+              image: 'img/portfolio/portfolio-image-mpishi-3.jpg',
+              alt: '',
+              title: '',
+              description: '',
+            },
+            {
+              image: 'img/portfolio/portfolio-image-mpishi-4.jpg',
+              alt: '',
+              title: '',
+              description: '',
+            },
+            {
+              image: 'img/portfolio/portfolio-image-mpishi-5.jpg',
+              alt: '',
+              title: '',
+              description: '',
+            },
+          ],
         },
       ]
     }
