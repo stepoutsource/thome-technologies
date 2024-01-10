@@ -26,3 +26,4 @@ pnpm-debug.log*
 *.sw?
 coverage/*
 .firebase/hosting.ZGlzdA.cache
+.firebase/hosting.cHVibGlj.cache
